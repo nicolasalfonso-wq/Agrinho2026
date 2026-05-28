@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumina • Fotografia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
 
+  <!-- Hero -->
+  <header class="hero">
+    <nav class="navbar">
+      <h2 class="logo">LUMINA</h2>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Capturando momentos<br>que o tempo não apaga</h1>
+      <p>Fotografia autoral • Natureza • Viagens • Ensaios</p>
+      <a href="#galeria" class="btn">Ver Galeria</a>
+    </div>
+  </header>
+
+  <!-- Sobre -->
+  <section id="sobre" class="section">
+    <h2>Sobre Mim</h2>
+    <div class="sobre-grid">
+      <div class="sobre-text">
+        <p>Olá! Sou um fotógrafo apaixonado por capturar a essência da vida através das lentes. Com mais de 8 anos de experiência, transformo momentos simples em histórias eternas.</p>
+      </div>
+      <img src="https://picsum.photos/600/800?random=1" alt="Fotógrafo">
+    </div>
+  </section>
+
+  <!-- Galeria -->
+  <section id="galeria" class="section">
+    <h2>Galeria</h2>
+    <div class="gallery-grid">
+      <img src="https://picsum.photos/600/800?random=2" alt="Foto 1">
+      <img src="https://picsum.photos/600/800?random=3" alt="Foto 2">
+      <img src="https://picsum.photos/600/800?random=4" alt="Foto 3">
+      <img src="https://picsum.photos/600/800?random=5" alt="Foto 4">
+      <img src="https://picsum.photos/600/800?random=6" alt="Foto 5">
+      <img src="https://picsum.photos/600/800?random=7" alt="Foto 6">
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <h2>Vamos conversar?</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu email" required>
+      <textarea placeholder="Sua mensagem..." required></textarea>
+      <button type="submit" class="btn">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Lumina Fotografia. Feito com ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
